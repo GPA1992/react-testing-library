@@ -68,7 +68,7 @@ describe('Testa o componente <Pokedex.js', () => {
     expect(allButton).toBeInTheDocument();
     expect(allButton).toBeEnabled();
     userEvent.click(allButton);
-    const thisType = screen.getByTestId('pokemon-type');
-    expect(thisType).toHaveTextContent('Electric');
+    const pikachuType = screen.getByTestId('pokemon-type');
+    expect(pikachuType).toHaveTextContent('Electric');
   });
 });
